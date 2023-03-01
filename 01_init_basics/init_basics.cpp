@@ -7,6 +7,7 @@ int main() {
   // '<<' insertion operator
 
   // Variables / constants
+  // basic types: int, double, char, string, bool
   cout << "Variables"<< endl;
   int year = 2077;
   int a = 1, b = 2, c = 3;
