@@ -39,6 +39,8 @@ int main() {
     cout << letters[i][j] << "\n";
   }
   };
+  // universal initialization
+  int foo[] { 10, 20, 30 };  // int foo[] = { 10, 20, 30 };
   cout << endl;
 
   return 0;

@@ -6,7 +6,7 @@ int main() {
   cout << "References" << endl;
   string food = "Pizza";
   string &meal = food;  // reference stores value of a variable
-  // '&' reference operator
+  // '&' address-of/reference operator
   cout << "Variable value: " << food << endl;
   cout << "Variable memory address: " << &food << endl;
   cout << "Reference value: " << meal << endl;
