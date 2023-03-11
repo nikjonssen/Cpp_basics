@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;  // can be omitted(*)
 
 int main() {
@@ -38,7 +39,7 @@ int main() {
   cout << "User input multiple words string " << endl;
   string fullName;
   cout << "Type your full name: " << endl;
-  getline (cin, fullName);
+  getline(cin, fullName);
   cout << "Your full name is: " << fullName << endl;
 
   return 0;
